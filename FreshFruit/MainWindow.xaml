@@ -1,0 +1,35 @@
+﻿<Window x:Class="FreshFruit.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FreshFruit"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Label" HorizontalAlignment="Left" Margin="496,171,0,0" VerticalAlignment="Top"/>
+        <Label Content="Label" HorizontalAlignment="Left" Margin="629,171,0,0" VerticalAlignment="Top"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="158,158,0,0" VerticalAlignment="Top" Width="100" Source="/Assets/anggur.jpg"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="352,158,0,0" VerticalAlignment="Top" Width="100" Source="/Assets/apple.png"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="158,291,0,0" VerticalAlignment="Top" Width="100" Source="/Assets/banana.jpg"/>
+        <ListBox x:Name="ListBoxBucket" Margin="496,197,0,0">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Grid Margin="0,2">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="100" />
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Grid.Column="0" Text="{Binding name}" TextAlignment="Left"/>
+                    </Grid>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <Image HorizontalAlignment="Left" Height="100" Margin="340,291,0,0" VerticalAlignment="Top" Width="100" Source="/Assets/orange.png"/>
+        <Label Content="Label" HorizontalAlignment="Left" Margin="752,171,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="ButtonAddAnggur" Content="Add" HorizontalAlignment="Left" Margin="182,266,0,0" VerticalAlignment="Top" Click="OnButtonAddAnggurClicked"/>
+        <Button x:Name="ButtonAddApple" Content="Add" HorizontalAlignment="Left" Margin="376,266,0,0" VerticalAlignment="Top" Click="OnButtonAddAppleClicked"/>
+        <Button x:Name="ButtonAddBanana" Content="Add" HorizontalAlignment="Left" Margin="182,402,0,0" VerticalAlignment="Top" Click="OnButtonAddBananaClicked"/>
+        <Button x:Name="ButtonAddOrange" Content="Add" HorizontalAlignment="Left" Margin="376,402,0,0" VerticalAlignment="Top" Click="OnButtonAddOrangeClicked"/>
+
+    </Grid>
+</Window>
