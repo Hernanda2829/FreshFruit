@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="FreshFruit.MainWindow">
+    <Position X="4" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IEAAEAAAAAAABAAAAAAAAAAAEAAAAAAAAAAAAAAGAAA=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FreshFruit.Model.Bucket">
+    <Position X="6" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAJAAEAEIAIAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Bucket.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FreshFruit.Model.Fruit">
+    <Position X="9.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Model\Fruit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FreshFruit.Model.Seller">
+    <Position X="11.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAFAAEAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Model\Seller.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FreshFruit.controller.BucketController">
+    <Position X="7.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAgAAAAAAAAAAAAAAAAAAlAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Controller\BucketController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="FreshFruit.Model.BucketEventListener">
+    <Position X="7.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\BucketEventListener.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
